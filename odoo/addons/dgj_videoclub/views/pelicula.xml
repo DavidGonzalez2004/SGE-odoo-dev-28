@@ -1,0 +1,35 @@
+<odoo>
+  <data>
+
+    <record id="dgj_videoclub.pelicula_form" model="ir.ui.view">
+      <field name="name">dgj_videoclub.pelicula.form</field>
+      <field name="model">dgj_videoclub.pelicula</field>
+      <field name="arch" type="xml">
+        <form string="Película">
+          <sheet>
+            <group>
+              <field name="name"></field>
+              <field name="precio_alquiler" />
+              <field name="director" />
+              <field name="fecha_lanzamiento" />
+            </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <record id="dgj_videoclub.pelicula_tree" model="ir.ui.view">
+      <field name="name">dgj_videoclub.pelicula.tree</field>
+      <field name="model">dgj_videoclub.pelicula</field>
+      <field name="arch" type="xml">
+        <tree string="Película">
+          <field name="name"></field>
+          <field name="precio_alquiler" />
+          <field name="director" />
+          <field name="fecha_lanzamiento" />
+        </tree>
+      </field>
+    </record>
+
+  </data>
+</odoo>

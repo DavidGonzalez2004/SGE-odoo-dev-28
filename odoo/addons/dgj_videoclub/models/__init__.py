@@ -3,3 +3,4 @@
 from . import Pelicula
 from . import Cliente
 from . import Categoria
+from . import Ejemplar

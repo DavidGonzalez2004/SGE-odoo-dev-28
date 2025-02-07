@@ -1,0 +1,35 @@
+<odoo>
+  <data>
+
+    <record id="dgj_videoclub.cliente_form" model="ir.ui.view">
+      <field name="name">dgj_videoclub.cliente.form</field>
+      <field name="model">dgj_videoclub.cliente</field>
+      <field name="arch" type="xml">
+        <form string="Cliente">
+          <sheet>
+            <group>
+              <field name="name"></field>
+              <field name="telefono"></field>
+              <field name="correo_electronico"></field>
+              <field name="direccion"></field>
+            </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <record id="dgj_videoclub.cliente_tree" model="ir.ui.view">
+      <field name="name">dgj_videoclub.cliente.tree</field>
+      <field name="model">dgj_videoclub.cliente</field>
+      <field name="arch" type="xml">
+        <tree string="Cliente">
+          <field name="name"></field>
+          <field name="telefono"></field>
+          <field name="correo_electronico"></field>
+          <field name="direccion"></field>
+        </tree>
+      </field>
+    </record>
+
+  </data>
+</odoo>

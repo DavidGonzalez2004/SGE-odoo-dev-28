@@ -1,0 +1,31 @@
+<odoo>
+  <data>
+
+    <record id="dgj_videoclub.categoria_form" model="ir.ui.view">
+      <field name="name">dgj_videoclub.categoria.form</field>
+      <field name="model">dgj_videoclub.categoria</field>
+      <field name="arch" type="xml">
+        <form string="Categoría">
+          <sheet>
+            <group>
+              <field name="name"></field>
+              <field name="descripcion"></field>
+            </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <record id="dgj_videoclub.categoria_tree" model="ir.ui.view">
+      <field name="name">dgj_videoclub.categoria.tree</field>
+      <field name="model">dgj_videoclub.categoria</field>
+      <field name="arch" type="xml">
+        <tree string="Categoría">
+            <field name="name"></field>
+            <field name="descripcion"></field>
+        </tree>
+      </field>
+    </record>
+
+  </data>
+</odoo>
