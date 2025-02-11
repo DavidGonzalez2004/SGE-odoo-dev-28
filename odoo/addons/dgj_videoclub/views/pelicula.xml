@@ -12,6 +12,7 @@
               <field name="precio_alquiler" />
               <field name="director" />
               <field name="fecha_lanzamiento" />
+              <field name="portada" widget="image"/>
             </group>
           </sheet>
         </form>
@@ -27,6 +28,7 @@
           <field name="precio_alquiler" />
           <field name="director" />
           <field name="fecha_lanzamiento" />
+          <field name="portada" widget="image"/>
         </tree>
       </field>
     </record>

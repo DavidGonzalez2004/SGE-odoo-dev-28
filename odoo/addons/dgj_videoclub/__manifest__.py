@@ -27,7 +27,7 @@ Long description of module's purpose
         'views/categoria.xml',
         'views/cliente.xml',
         'views/ejemplar.xml',
-        'views/templates.xml',
+        'views/menus.xml',
     ],
     # only loaded in demonstration mode
     'demo': [

@@ -1,0 +1,62 @@
+<odoo>
+    <data>
+        <!-- Acciones -->
+        <record id="dgj_videoclub.pelicula_action" model="ir.actions.act_window">
+            <field name="name">Películas</field>
+            <field name="res_model">dgj_videoclub.pelicula</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <record id="dgj_videoclub.cliente_action" model="ir.actions.act_window">
+            <field name="name">Clientes</field>
+            <field name="res_model">dgj_videoclub.cliente</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <record id="dgj_videoclub.categoria_action" model="ir.actions.act_window">
+            <field name="name">Categorías</field>
+            <field name="res_model">dgj_videoclub.categoria</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <record id="dgj_videoclub.ejemplar_action" model="ir.actions.act_window">
+            <field name="name">Ejemplares</field>
+            <field name="res_model">dgj_videoclub.ejemplar</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <!-- Menús -->
+        <menuitem
+            id="dgj_videoclub.root_menu"
+            name="Videoclub"
+            sequence="10"/>
+
+        <menuitem
+            id="dgj_videoclub.pelicula_menu"
+            name="Películas"
+            action="dgj_videoclub.pelicula_action"
+            parent="dgj_videoclub.root_menu"
+            sequence="10"/>
+
+        <menuitem
+            id="dgj_videoclub.cliente_menu"
+            name="Clientes"
+            action="dgj_videoclub.cliente_action"
+            parent="dgj_videoclub.root_menu"
+            sequence="10"/>
+
+        <menuitem
+            id="dgj_videoclub.categoria_menu"
+            name="Categorías"
+            action="dgj_videoclub.categoria_action"
+            parent="dgj_videoclub.root_menu"
+            sequence="10"/>
+
+        <menuitem
+            id="dgj_videoclub.ejemplar_menu"
+            name="Ejemplares"
+            action="dgj_videoclub.ejemplar_action"
+            parent="dgj_videoclub.root_menu"
+            sequence="10"/>
+    </data>
+</odoo>

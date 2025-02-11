@@ -25,7 +25,7 @@ Gestión de una librería
     'data': [
         # 'security/ir.model.access.csv',
         'views/categoria.xml',
-        'views/templates.xml',
+        'views/menus.xml',
     ],
     # only loaded in demonstration mode
     'demo': [

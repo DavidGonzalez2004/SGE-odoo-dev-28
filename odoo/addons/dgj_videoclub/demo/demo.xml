@@ -45,21 +45,21 @@
       
       <record id="dgj_videoclub_cliente1" model="dgj_videoclub.cliente">
         <field name="name">David González Jiménez</field>
-        <field name="telefono">123 45 67 89</field>
+        <field name="telefono">123456789</field>
         <field name="correo_electronico">elcorreodedavid@correo.com</field>
         <field name="direccion">Calle Inventada 123</field>
       </record>
 
       <record id="dgj_videoclub_cliente2" model="dgj_videoclub.cliente">
         <field name="name">Alejandro González Jiménez</field>
-        <field name="telefono">756 84 12 34</field>
+        <field name="telefono">756841234</field>
         <field name="correo_electronico">elcorreodealejandro@correo.com</field>
         <field name="direccion">Calle Inventada 124</field>
       </record>
 
       <record id="dgj_videoclub_cliente3" model="dgj_videoclub.cliente">
         <field name="name">Marcos García</field>
-        <field name="telefono">988 37 52 29</field>
+        <field name="telefono">988375229</field>
         <field name="correo_electronico">jajasaludos@correo.com</field>
         <field name="direccion">Calle Risas 89</field>
       </record>
