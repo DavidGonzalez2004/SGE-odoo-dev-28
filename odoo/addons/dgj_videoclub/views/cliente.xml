@@ -12,6 +12,13 @@
               <field name="telefono"></field>
               <field name="correo_electronico"></field>
               <field name="direccion"></field>
+              <field name="ejemplar_ids">
+                <tree string="Ejemplar">
+                  <field name="numero_ejemplar"></field>
+                  <field name="formato"></field>
+                  <field name="pelicula_id"></field>
+                </tree>
+              </field>
             </group>
           </sheet>
         </form>
@@ -27,6 +34,7 @@
           <field name="telefono"></field>
           <field name="correo_electronico"></field>
           <field name="direccion"></field>
+          <field name="ejemplar_ids"></field>
         </tree>
       </field>
     </record>

@@ -10,4 +10,6 @@ class Cliente(models.Model):
     telefono = fields.Integer('Teléfono', help="Introduzca el teléfono del cliente")
     correo_electronico = fields.Char('Correo electrónico', help="Introduzca el correo electrónico del cliente")
     direccion = fields.Char('Dirección', help="Introduzca la dirección del cliente")
+
+    ejemplar_ids = fields.One2many('dgj_videoclub.ejemplar', 'cliente_id', string='Ejemplares')
     

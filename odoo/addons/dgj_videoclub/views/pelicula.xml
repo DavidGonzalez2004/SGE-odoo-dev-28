@@ -13,6 +13,13 @@
               <field name="director" />
               <field name="fecha_lanzamiento" />
               <field name="portada" widget="image"/>
+              <field name="ejemplar_ids">
+                <tree string="Ejemplar">
+                  <field name="numero_ejemplar"></field>
+                  <field name="formato"></field>
+                  <field name="cliente_id"></field>
+                </tree>
+              </field>
             </group>
           </sheet>
         </form>
@@ -29,6 +36,7 @@
           <field name="director" />
           <field name="fecha_lanzamiento" />
           <field name="portada" widget="image"/>
+          <field name="ejemplar_ids"></field>
         </tree>
       </field>
     </record>

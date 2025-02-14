@@ -10,6 +10,8 @@
             <group>
               <field name="numero_ejemplar"></field>
               <field name="formato"></field>
+              <field name="pelicula_id"></field>
+              <field name="cliente_id"></field>
             </group>
           </sheet>
         </form>
@@ -23,6 +25,8 @@
         <tree string="Ejemplar">
           <field name="numero_ejemplar"></field>
           <field name="formato"></field>
+          <field name="pelicula_id"></field>
+          <field name="cliente_id"></field>
         </tree>
       </field>
     </record>

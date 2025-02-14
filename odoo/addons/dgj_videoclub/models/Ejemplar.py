@@ -12,4 +12,7 @@ class Ejemplar(models.Model):
         ('1', 'DVD'),
         ('2', 'BLURAY')
     ], string='Formato')
+
+    pelicula_id = fields.Many2one('dgj_videoclub.pelicula', string='Película')
+    cliente_id = fields.Many2one('dgj_videoclub.cliente', string='Cliente')
     

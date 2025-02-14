@@ -9,6 +9,11 @@
             <group>
               <field name="name"></field>
               <field name="descripcion" />
+              <field name="libro_ids"></field>
+                <tree string="Libro">
+                  <field name="name"></field>
+                  <field name="precio" />
+                </tree>
             </group>
           </sheet>
         </form>
@@ -22,6 +27,7 @@
         <tree string="Categoria">
           <field name="name"></field>
           <field name="descripcion" />
+          <field name="libro_ids"></field>
         </tree>
       </field>
     </record>

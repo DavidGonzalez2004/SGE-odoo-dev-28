@@ -16,3 +16,5 @@ class Libro(models.Model):
         ('1', 'Regular'),
         ('2', 'Malo')
     ], string='Estado', default='0')
+
+    categoria_id = fields.Many2one('sge_libreria.categoria', string='Categoria')

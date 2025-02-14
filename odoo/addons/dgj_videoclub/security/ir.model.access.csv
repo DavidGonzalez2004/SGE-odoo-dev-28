@@ -1,2 +1,9 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_dgj_videoclub_dgj_videoclub,dgj_videoclub.dgj_videoclub,model_dgj_videoclub_dgj_videoclub,base.group_user,1,1,1,1
+access_dgj_videoclub_categoria_users,dgj_videoclub.categoria_users,model_dgj_videoclub_categoria,base.group_user,1,0,0,0
+access_dgj_videoclub_pelicula_users,dgj_videoclub.pelicula_users,model_dgj_videoclub_pelicula,base.group_user,1,0,0,0
+access_dgj_videoclub_ejemplar_users,dgj_videoclub.ejemplar_users,model_dgj_videoclub_ejemplar,base.group_user,1,0,0,0
+access_dgj_videoclub_cliente_users,dgj_videoclub.cliente_users,model_dgj_videoclub_cliente,base.group_user,1,0,0,0
+access_dgj_videoclub_categoria_admins,dgj_videoclub.categoria_admins,model_dgj_videoclub_categoria,base.group_system,1,1,1,1
+access_dgj_videoclub_pelicula_admins,dgj_videoclub.pelicula_admins,model_dgj_videoclub_pelicula,base.group_system,1,1,1,1
+access_dgj_videoclub_ejemplar_admins,dgj_videoclub.ejemplar_admins,model_dgj_videoclub_ejemplar,base.group_system,1,1,1,1
+access_dgj_videoclub_cliente_admins,dgj_videoclub.cliente_admins,model_dgj_videoclub_cliente,base.group_system,1,1,1,1
