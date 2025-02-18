@@ -10,8 +10,8 @@ class Pelicula(models.Model):
     precio_alquiler = fields.Float('Precio de alquiler', required=True, help="Introduce el precio de alquiler de la película")
     director = fields.Char('Director', help="Introduce el director de la película")
     fecha_lanzamiento = fields.Date('Fecha de lanzamiento', help="Introduce la fecha de lanzamiento de la película")
-    portada = fields.Image('Portada', max_width=100, min_width=100, help="Introduce la portada de la película")
+    portada = fields.Image('Portada', max_width=100, min_width=100)
 
     ejemplar_ids = fields.One2many('dgj_videoclub.ejemplar', 'pelicula_id', string='Ejemplares')
-
+    categoria_ids = fields.Many2many('dgj_videoclub.categoria', relation="dgj_videoclub_categoria_pelicula_rel", string='Categorías')
     

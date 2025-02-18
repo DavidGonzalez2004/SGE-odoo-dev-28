@@ -20,6 +20,12 @@
                   <field name="cliente_id"></field>
                 </tree>
               </field>
+              <field name="categoria_ids">
+                <tree string="Categoría">
+                  <field name="name"></field>
+                  <field name="descripcion"></field>
+                </tree>
+              </field>
             </group>
           </sheet>
         </form>

@@ -10,6 +10,15 @@
             <group>
               <field name="name"></field>
               <field name="descripcion"></field>
+              <field name="pelicula_ids">
+                <tree string="Película">
+                  <field name="name"></field>
+                  <field name="precio_alquiler"></field>
+                  <field name="director"></field>
+                  <field name="fecha_lanzamiento"></field>
+                  <field name="portada" widget="image"></field>
+                </tree>
+              </field>
             </group>
           </sheet>
         </form>
